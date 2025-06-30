@@ -1,0 +1,2 @@
+{"level":"INFO","time":"2025-06-30T00:29:25.037+0700","msg":"Hello Custom Logger","name":"ngductoann","age":25}
+{"level":"ERROR","time":"2025-06-30T00:29:25.037+0700","msg":"Error occurred","error":"file not found","code":404}
