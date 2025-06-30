@@ -1,6 +1,7 @@
 package controller
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -13,6 +14,7 @@ func NewPongController() *PongController {
 }
 
 func (pc *PongController) Pong(c *gin.Context) {
+	fmt.Println("----> My Handler Pong")
 	name := c.DefaultQuery("name", "ngductoann") // Get the "name" query parameter, defaulting to "ngductoann" if not provided
 	uid := c.Query("uid")
 
