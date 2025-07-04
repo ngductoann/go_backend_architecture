@@ -3,7 +3,7 @@ package controller
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/ngductoann/go_backend_architecture/internal/service"
-	"github.com/ngductoann/go_backend_architecture/response"
+	"github.com/ngductoann/go_backend_architecture/pkg/response"
 )
 
 type UserController struct {

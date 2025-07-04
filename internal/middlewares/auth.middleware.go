@@ -2,7 +2,7 @@ package middlewares
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/ngductoann/go_backend_architecture/response"
+	"github.com/ngductoann/go_backend_architecture/pkg/response"
 )
 
 func AuthMiddleware() gin.HandlerFunc {
